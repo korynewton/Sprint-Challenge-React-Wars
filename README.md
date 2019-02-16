@@ -25,32 +25,38 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React is a JS library built with the purpose of rendering scalable and reusable User Interfaces. React js tries to solve the problem of dealing with complex state within an application.
 
 - [ ] What does it mean to _think_ in react?
+To think in React is to think about how you will compose an application thinking from a top-down perfective. Starting with the JS file that will be that will be rendered to the virual dom and inserting smaller reusable components down the line in a heirarcy of parent and children components.
 
 - [ ] Describe state.
+State is essentially a master set of data in an object that can be available to any and all components if that is what is needed.
+
 
 - [ ] Describe props.
+Props are a way of passsing down data or functions to a component that may need it for its intended use.
+
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 
 Please note:
@@ -90,9 +96,9 @@ Your data set will look like this:
 
 Your finished project must include all of the following requirements:
 
-- [ ] A list of Star Wars Characters rendered to the screen.
-- [ ] You must have at least one list element for each star wars character in the data set.
-- [ ] The list elements must all be styled beyond the basic
+- [x] A list of Star Wars Characters rendered to the screen.
+- [x] You must have at least one list element for each star wars character in the data set.
+- [x] The list elements must all be styled beyond the basic
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts to much and does not.
 
